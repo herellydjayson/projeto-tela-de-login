@@ -11,7 +11,11 @@ body {
 .riot {
     height: 50px;
     margin-top: 50px;
-    margin-left: 50px;
+   
+}
+
+.img{
+    text-align: center;
 }
 
 #title {
@@ -19,7 +23,7 @@ body {
     margin-bottom: 50px;
 }
 
-div {
+.conteudo{
     
     background-color: #fff;
     position: absolute;
@@ -27,22 +31,21 @@ div {
     border-radius: 15px;
     font-size: 15px;
     height: 500px;
-    width: 400px;
-    padding: 50px;
+    width: 90%;
+    padding: 10px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 input {
-    min-width: 300px;
-    max-width: 1000px;
+    
+    min-width: 335px;
     font: bold;
     background-color: #E8F0FE;
     height:10px;
     padding: 20px;
     margin-top: 15px;
-    width: 350px;
     border-radius: 10px;
     border: none;
     outline: none;
@@ -62,11 +65,27 @@ input:hover {
    margin-bottom: 20px;
 }
 
-#redes img {
-height: 30px;
-width: 80px;
-margin: 8px;
-margin-top: ;
+#redes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+#redes a {
+    width: 50%;
+    max-height: 47px;
+    border: 1px solid #E8F0FE;
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+#redes a img {
+max-height: 47px;
+width: 100%;
+height: 100%;
 border-radius: 10px;
 }
 
@@ -146,4 +165,14 @@ transform: translate(-50%, -50%);
 
 #conta:hover {
 color: black;
+}
+
+@media (min-width:600px) {
+    .conteudo {
+        max-width: 400px;
+    }
+
+    .img {
+        text-align: left;
+    }
 }
