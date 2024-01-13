@@ -37,20 +37,20 @@ body {
 }
 
 input {
-  min-width: 335px;
+  width: 85%;
   font: bold;
   background-color: #e8f0fe;
-  height: 10px;
-  padding: 20px;
-  margin-top: 15px;
-  border-radius: 10px;
+  height: 1em;
+  padding: 1.25em;
+  margin: .5em;
+  border-radius: 15px;
   border: none;
   outline: none;
   font-size: medium;
 }
 
 input:hover {
-  background-color: #5177b83b;
+  background-color: #032c723b;
 }
 
 #nome {
@@ -72,7 +72,6 @@ input:hover {
   max-height: 47px;
   border: 1px solid #e8f0fe;
   flex: 2;
-  display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 10px;
@@ -163,7 +162,7 @@ input:hover {
   color: black;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 300px) {
   .conteudo {
     max-width: 400px;
   }
@@ -171,4 +170,5 @@ input:hover {
   .img {
     text-align: left;
   }
+
 }
