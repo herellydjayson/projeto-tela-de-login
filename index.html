@@ -14,27 +14,27 @@
     </div>
     <div class="conteudo">
       <h1 id="title">Fazer login</h1>
-      <input type="text" placeholder="Nome" id="nome" />
+       <form action="login" method="post" autocomplete="on">
+          <input type="text" placeholder="Nome" id="nome" autocomplete="on" required maxlength="30"/>
+          <input type="password" placeholder="Senha" id="senha" required autocomplete="current-password" required minlength="8" maxlength="15"/>
+      
 
-      <input type="password" placeholder="Senha" id="senha" />
-
-      <div id="redes">
-        <a href="https://www.facebook.com/"
-        ><img src="redes/facebook.jpeg" alt="facebook" class="img1"
-        /></a>
-        <a href="#"><img src="redes/gmail.jpeg" alt="gmail" /></a>
-        <a href="#"><img src="redes/apple.jpeg" alt="apple" /></a>
-        <a href="#"><img src="redes/images.jpeg" alt="xbox" /></a>
+    <div id="redes">
+      <a href="https://www.facebook.com/"><img src="redes/facebook.jpeg" alt="facebook" class="img1"/></a>
+      <a href="#"><img src="redes/gmail.jpeg" alt="gmail"></a>
+      <a href="#"><img src="redes/apple.jpeg" alt="apple"/></a>
+      <a href="#"><img src="redes/images.jpeg" alt="xbox"></a>
     </div>
      
-      <a href="https://www.riotgames.com/pt-br"><button id="botao"></button></a>
+    <button id="botao"></button>
       <a href="miranha.html">
         <p id="texto">Não consegue fazer login?</p>
       </a>
 
-      <a href="#">
-        <p id="conta">Criar conta</p>
-      </a>
+    <a href="#">
+      <p id="conta">Criar conta</p>
+    </a>
+      </form>
     </div>
   </body>
 </html>
